@@ -1,0 +1,24 @@
+###
+GET http://localhost:3000/api/tasks?size=2
+###
+POST http://localhost:3000/api/tasks
+Content-Type: application/json
+
+{
+    "title":"Hacer sitio web con Js",
+    "description":"trabajo empresa"
+}
+###
+GET http://localhost:3000/api/tasks/61c127737ca541ad4c5acd5a
+###
+DELETE  http://localhost:3000/api/tasks/61c127737ca541ad4c5acd5a
+###
+GET http://localhost:3000/api/tasks/done
+###
+PUT http://localhost:3000/api/tasks/61c22dfa1b8387a97c29df41
+Content-Type: application/json
+
+{
+    "title":"Crear un sitio e WP"
+}
+###
